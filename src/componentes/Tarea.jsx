@@ -1,6 +1,6 @@
 import React from 'react';
 import '../hojas-de-estilo/Tarea.css';
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { FaCircleXmark } from "react-icons/fa6";
 
 function Tarea({id,texto, completada,completarTarea, eliminarTarea}) {
   return (
@@ -13,7 +13,7 @@ function Tarea({id,texto, completada,completarTarea, eliminarTarea}) {
       className='tarea-contenedor-iconos'
       onClick={() => eliminarTarea(id)}>
 
-        <AiOutlineCloseCircle className='tarea-icono' />
+        <FaCircleXmark className='tarea-icono' />
       </div>
     </div>
   );

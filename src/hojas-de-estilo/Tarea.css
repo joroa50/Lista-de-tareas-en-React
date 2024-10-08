@@ -8,22 +8,22 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 7px;
-  border: 1px solid white;
+  border: 1px solid rgb(20, 18, 18);
   cursor: pointer;
 }
 
 /*Colores*/
 
 .tarea-contenedor:nth-child(3n + 1) {
-  background-color: #722514;
+  background-color: #197eb8;
 }
 
-.tarea.contenedor:nth-child(3n +2) {
-  background-color: #b86d19;
+.tarea-contenedor:nth-child(3n +2) {
+  background-color: #1963b8;
 }
 
-.tarea.contenedor:nth-child(3n +3) {
-  background-color:#52124e;
+.tarea-contenedor:nth-child(3n +3) {
+  background-color:#095b8a;
 }
 
 .tarea-texto {
